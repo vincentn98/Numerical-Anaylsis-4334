@@ -1,7 +1,10 @@
+syms x
+
 f(x) = (x-1)^8;
-dp = 1.5;
+
+dp = 1.1;
 for i = 1:20
-    a(i)dp;
+    a(i) = dp;
     dn = dp-(1/8)*(dp-1);
     xv(i) = dn;
     dp = dn;
@@ -11,4 +14,5 @@ end
 diff = xv-a;
 xv = c;
 fx = y;
+
 table = transpose(double([xv;fx;diff]));
