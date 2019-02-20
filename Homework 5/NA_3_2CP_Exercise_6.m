@@ -15,4 +15,4 @@ diff = xv-a;
 xv = c;
 fx = y;
 
-table = transpose(double([xv;fx;diff]));
+table = transpose(double([xv;fx;diff])); %Prints out results.
