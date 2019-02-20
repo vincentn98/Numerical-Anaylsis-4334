@@ -1,4 +1,4 @@
-%3.2 Exercise 6
+%3.2 Paper Exercise 6
 syms x
 
 f(x) = (x-1)^8;
