@@ -3,7 +3,6 @@ format shortG;
 syms x
 delta = .000000001;
 epsi = .000001;
-
 f(x) = atan(x);
 xp = 2;
 xp1 = -1;
@@ -17,7 +16,6 @@ if fxp1 > fxp
 end
 
 etest(x) = -(1/2)*(-(2*x)/(1+x^2)^2)/(1/(1+x^2));
-
 for i = 1:20
     if fxp1 > fxp
         fxp1 = j;
