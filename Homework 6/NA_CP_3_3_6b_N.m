@@ -1,3 +1,4 @@
+%3.3 Computer Exercise 6b_N
 
 format compact;
 
