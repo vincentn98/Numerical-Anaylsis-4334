@@ -1,5 +1,4 @@
 %2.2 Computer Exercise 2
-
 a = [.4096,.1234,.3678,.2943;.2246,.3872,.4015,.1129;.3645,.1920,.3781,.0643;.1784,.4002,.2786,.3927];
 b = [.4043;.1550;.4240;.2557];
 rref([a,b])
@@ -12,7 +11,6 @@ for i = 1:n
     end
     s(i) = smax;
 end
-
 for k = 1:n-1
     rmax = 0;
     for i = k:n
@@ -34,13 +32,11 @@ for k = 1:n-1
         end
     end
 end
-
 for k = 1:n-1
     for i = k+1:n
         b(l(i)) = b(l(i))-a(l(i),k)*b(l(k));
     end
 end
-
 x(n) = b(l(n))/a(l(n), n);
 for i = n-1:-1:1
     sum = b(l(i));
