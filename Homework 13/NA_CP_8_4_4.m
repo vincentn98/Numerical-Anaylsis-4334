@@ -53,3 +53,7 @@ for l = 1:11
 end
 check = transpose(check)
 result = [transpose(w),transpose(ite)]
+plot((w),(ite))
+xlabel('w');
+ylabel('Iterations');
+disp('w = 1.4 results in the fastest convergence.')
